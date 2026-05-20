@@ -1,74 +1,119 @@
-README – Labirintus metódusok
-========================================
-A program egy karakterekből felépített labirintust vizsgál.
-
-Használt karakterek:
-. = üres mező
-█ = terem
-╬ ═ ╦ ╩ ║ ╣ ╠ ╗ ╝ ╚ ╔ = járatelemek
-
-
-GetRoomNumber(char[,] map)
+# README – Labirintus metódusok
 ========================================
 
-Feladata:
-Megszámolja a termeket a térképen.
+
+## Program leírása
+========================================
+
+
+Ez a program egy karakterekből felépített labirintust vizsgál.
+A térkép egy `char[,]` típusú kétdimenziós tömbben van tárolva.
+
+A program képes:
+
+* megszámolni a termeket,
+* megszámolni a kijáratokat,
+* ellenőrizni a hibás karaktereket,
+* megkeresni az elérhetetlen járatelemeket,
+* valamint új labirintust generálni pozíciólista alapján.
+
+---
+
+## Használt karakterek
+========================================
+
+
+| Karakter                | Jelentés    |
+| ----------------------- | ----------- |
+| `.`                     | üres mező   |
+| `█`                     | terem       |
+| `╬ ═ ╦ ╩ ║ ╣ ╠ ╗ ╝ ╚ ╔` | járatelemek |
+
+---
+
+## Metódusok
+
+### `GetRoomNumber(char[,] map)`
+
+Megszámolja, hogy hány terem (`█`) található a térképen.
 
 Visszatérési érték:
-int → a termek száma
 
+* teremszám (`int`)
 
-GetSuitableEntrance(char[,] map)
-========================================
+---
 
-Feladata:
-Megszámolja a kijáratokat a pálya szélén.
+### `GetSuitableEntrance(char[,] map)`
 
-Visszatérési érték:
-int → kijáratok száma
-
-
-
-IsInvalidElement(char[,] map)
-========================================
-
-Feladata:
-Ellenőrzi, hogy van-e hibás karakter.
+Megszámolja, hogy hány kijárat található a labirintus szélén.
 
 Visszatérési érték:
-bool
-true → van hibás karakter
-false → nincs hibás karakter
 
+* kijáratok száma (`int`)
 
-GetUnavailableElements(char[,] map)
-========================================
+---
 
-Feladata:
-Megkeresi az elérhetetlen járatelemeket.
+### `IsInvalidElement(char[,] map)`
+
+Ellenőrzi, hogy van-e szabálytalan karakter a térképen.
 
 Visszatérési érték:
-List<string> → koordináták listája
 
+* `true` → van hibás karakter
+* `false` → minden karakter érvényes
 
-GenerateLabyrinth(List<string> positionsList)
-========================================
+---
 
-Feladata:
-Pozíciólista alapján labirintust generál.
+### `GetUnavailableElements(char[,] map)`
 
-Példa koordináta:
-2:5
+Megkeresi azokat a járatelemeket, amelyekhez nem kapcsolódik másik járat.
 
 Visszatérési érték:
-char[,] → elkészült térkép
 
+* elérhetetlen elemek listája (`List<string>`)
 
-IsPath(char c)
-========================================
+---
 
-Feladata:
-Megvizsgálja, hogy a karakter járat-e.
+### `GenerateLabyrinth(List<string> positionsList)`
+
+Új labirintust generál egy pozíciólista alapján.
+
+A lista elemei ilyen formátumúak:
+`"sor:oszlop"`
+
+Példa:
+`"2:5"`
 
 Visszatérési érték:
-bool
+
+* elkészült labirintus (`char[,]`)
+
+---
+
+### `IsPath(char c)`
+
+Megvizsgálja, hogy egy karakter járatelem-e.
+
+Visszatérési érték:
+
+* `true` → járat
+* `false` → nem járat
+
+---
+
+## Program működése
+
+A program egy előre definiált `testMap` térképpel indul.
+
+A `Main()` függvény meghívja a különböző metódusokat, majd kiírja az eredményeket:
+
+1. termek száma
+2. kijáratok száma
+3. hibás karakterek ellenőrzése
+4. elérhetetlen elemek listája
+
+---
+
+## Megjegyzés
+
+A program konzolos alkalmazásként készült C# nyelven.
