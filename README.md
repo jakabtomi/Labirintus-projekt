@@ -1,9 +1,7 @@
 # README – Labirintus metódusok
-========================================
 
 
 ## Program leírása
-========================================
 
 
 Ez a program egy karakterekből felépített labirintust vizsgál.
@@ -20,7 +18,7 @@ A program képes:
 ---
 
 ## Használt karakterek
-========================================
+
 
 
 | Karakter                | Jelentés    |
