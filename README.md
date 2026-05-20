@@ -32,13 +32,13 @@ A program képes:
 
 ## Metódusok
 
-### `GetRoomNumber(char[,] map)`
+### GetRoomNumber(char[,] map)
 
 Megszámolja, hogy hány terem (`█`) található a térképen.
 
 Visszatérési érték:
 
-* teremszám (`int`)
+* teremszám (int)
 
 ---
 
