@@ -1,5 +1,6 @@
+========================================
 README – Labirintus metódusok
-
+========================================
 A program egy karakterekből felépített labirintust vizsgál.
 
 Használt karakterek:
