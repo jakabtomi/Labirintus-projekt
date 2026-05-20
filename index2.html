@@ -11,14 +11,15 @@
         <nav class="topbar" aria-label="Nyelvválasztó">
             <span class="brand">C# Labyrinth</span>
             <div class="language-switch">
-                <button class="active" type="button" data-lang="hu">Magyar</button>
-                <button type="button" data-lang="en">English</button>
+
+                    <button class="active" type="button" data-lang="hu" onclick="setLanguage('hu')">Magyar</button>
+                    <button type="button" data-lang="en" onclick="setLanguage('en')">English</button>
             </div>
         </nav>
 
         <div class="hero-grid">
             <div class="hero-content">
-                <p class="eyebrow" id="subtitle">Konzolos C# projekt bemutatása</p>
+                <p id="subtitle">Konzolos C# projekt bemutatása</p>
                 <h1 id="title">Labirintus Játék Dokumentáció</h1>
                 <p id="introText">
                     A játék célja a labirintus összes kincstermének felfedezése, majd a kijáraton történő kijutás.
@@ -47,18 +48,17 @@
 
         <section class="panel">
             <div class="section-heading">
-                <span>01</span>
                 <h2 id="teamTitle">A projektmunka</h2>
             </div>
             <p id="teamText">A projektmunkát 3 fő végezte a következő bontásban:</p>
             <div class="team-list">
                 <article>
                     <strong>A</strong>
-                    <p id="member1">Labirintus játék elkészítése</p>
+                    <p id="member1">Labirintus játék elkészítése : Tóth Sándor Benedek</p>
                 </article>
                 <article>
                     <strong>B</strong>
-                    <p id="member2">Térképszerkesztő elkészítése</p>
+                    <p id="member2">Térképszerkesztő elkészítése : Oláh Szabolcs</p>
                 </article>
                 <article>
                     <strong>C</strong>
@@ -69,7 +69,6 @@
 
         <section class="panel">
             <div class="section-heading">
-                <span>02</span>
                 <h2 id="controlsTitle">Irányítás</h2>
             </div>
             <div class="controls-grid" aria-label="Irányítás">
@@ -93,7 +92,6 @@
         </section>
 <section class="panel map-panel">
     <div class="section-heading">
-        <span>03</span>
         <h2 id="mapTitle">Térkép karakterek</h2>
     </div>
 
@@ -128,7 +126,6 @@
 
         <section class="panel">
             <div class="section-heading">
-                <span>04</span>
                 <h2 id="methodsTitle">Megvalósított metódusok</h2>
             </div>
             <div class="method-list">
