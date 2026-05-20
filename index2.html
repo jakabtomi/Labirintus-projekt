@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labirintus Játék Dokumentáció</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="topbar" aria-label="Nyelvválasztó">
+            <span class="brand">C# Labyrinth</span>
+            <div class="language-switch">
+                <button class="active" type="button" data-lang="hu">Magyar</button>
+                <button type="button" data-lang="en">English</button>
+            </div>
+        </nav>
+
+        <div class="hero-grid">
+            <div class="hero-content">
+                <p class="eyebrow" id="subtitle">Konzolos C# projekt bemutatása</p>
+                <h1 id="title">Labirintus Játék Dokumentáció</h1>
+                <p id="introText">
+                    A játék célja a labirintus összes kincstermének felfedezése, majd a kijáraton történő kijutás.
+                    A játék konzolos felületen működik és a játékos WASD billentyűkkel mozog.
+                </p>
+            </div>
+
+            <pre class="hero-map" aria-label="Labirintus térkép előnézet">        .....╔══════╗...........
+        ════╗║......║......█....
+        .╔══╬╝..╔═══╣...╗..║....
+        .║..║...║...╚═╦═╝╚╦╝....
+        .╚╦═╩═══╣.....║...║.....
+        ..╚══...║.....╚═══╝.....
+</pre>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="panel intro-panel">
+            <h2 id="introTitle">A projekt célja</h2>
+            <p id="introTextCopy">
+                Fedezd fel a termeket, jegyezd meg az útvonalakat, majd találd meg a kijáratot.
+                A dokumentáció röviden bemutatja a játék működését, irányítását és a megvalósított metódusokat.
+            </p>
+        </section>
+
+        <section class="panel">
+            <div class="section-heading">
+                <span>01</span>
+                <h2 id="teamTitle">A projektmunka</h2>
+            </div>
+            <p id="teamText">A projektmunkát 3 fő végezte a következő bontásban:</p>
+            <div class="team-list">
+                <article>
+                    <strong>A</strong>
+                    <p id="member1">Labirintus játék elkészítése</p>
+                </article>
+                <article>
+                    <strong>B</strong>
+                    <p id="member2">Térképszerkesztő elkészítése</p>
+                </article>
+                <article>
+                    <strong>C</strong>
+                    <p id="member3">Megadott metódusok implementálása és a weblap elkészítése: Jakab Tamás</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="section-heading">
+                <span>02</span>
+                <h2 id="controlsTitle">Irányítás</h2>
+            </div>
+            <div class="controls-grid" aria-label="Irányítás">
+                <div class="key-card">
+                    <kbd>W</kbd>
+                    <p id="northText">Mozgás északra</p>
+                </div>
+                <div class="key-card">
+                    <kbd>A</kbd>
+                    <p id="westText">Mozgás nyugatra</p>
+                </div>
+                <div class="key-card">
+                    <kbd>S</kbd>
+                    <p id="southText">Mozgás délre</p>
+                </div>
+                <div class="key-card">
+                    <kbd>D</kbd>
+                    <p id="eastText">Mozgás keletre</p>
+                </div>
+            </div>
+        </section>
+<section class="panel map-panel">
+    <div class="section-heading">
+        <span>03</span>
+        <h2 id="mapTitle">Térkép karakterek</h2>
+    </div>
+
+    <div class="table-card">
+        <table class="character-table">
+            <thead>
+                <tr>
+                    <th id="charText">Karakter</th>
+                    <th id="meaningText">Jelentés</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="map-symbol">.</span></td>
+                    <td id="wallText">Fal / kitöltés</td>
+                </tr>
+                <tr>
+                    <td><span class="map-symbol room-symbol">█</span></td>
+                    <td id="roomText">Kincses terem</td>
+                </tr>
+                <tr>
+                    <td><span class="map-symbol path-symbol">╬ ═ ╦ ╩ ║ ╣ ╠ ╗ ╝ ╚ ╔</span></td>
+                    <td id="pathText">Járatok</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+    
+
+        <section class="panel">
+            <div class="section-heading">
+                <span>04</span>
+                <h2 id="methodsTitle">Megvalósított metódusok</h2>
+            </div>
+            <div class="method-list">
+                <article>
+                    <code>GetRoomNumber()</code>
+                    <p id="method1">Termek megszámolása</p>
+                </article>
+                <article>
+                    <code>GetSuitableEntrance()</code>
+                    <p id="method2">Kijáratok keresése</p>
+                </article>
+                <article>
+                    <code>IsInvalidElement()</code>
+                    <p id="method3">Hibás karakterek ellenőrzése</p>
+                </article>
+                <article>
+                    <code>GetUnavailableElements()</code>
+                    <p id="method4">Elérhetetlen járatok keresése</p>
+                </article>
+                <article>
+                    <code>GenerateLabyrinth()</code>
+                    <p id="method5">Labirintus generálása</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p id="footerText">Készítette: Jakab Tamás</p>
+    </footer>
+
+    <script src="script2.js"></script>
+</body>
+</html>
