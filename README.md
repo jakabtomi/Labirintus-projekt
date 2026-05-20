@@ -24,9 +24,9 @@ A program képes:
 
 | Karakter                | Jelentés    |
 | ----------------------- | ----------- |
-| `.`                     | üres mező   |
-| `█`                     | terem       |
-| `╬ ═ ╦ ╩ ║ ╣ ╠ ╗ ╝ ╚ ╔` | járatelemek |
+|  .                      | üres mező   |
+|  █                      | terem       |
+| ╬ ═ ╦ ╩ ║ ╣ ╠ ╗ ╝ ╚ ╔`  | járatelemek |
 
 ---
 
