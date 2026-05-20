@@ -26,7 +26,7 @@ A program képes:
 | ----------------------- | ----------- |
 |  .                      | üres mező   |
 |  █                      | terem       |
-| ╬ ═ ╦ ╩ ║ ╣ ╠ ╗ ╝ ╚ ╔`  | járatelemek |
+| ╬ ═ ╦ ╩ ║ ╣ ╠ ╗ ╝ ╚ ╔   | járatelemek |
 
 ---
 
