@@ -8,7 +8,6 @@ Használt karakterek:
 ╬ ═ ╦ ╩ ║ ╣ ╠ ╗ ╝ ╚ ╔ = járatelemek
 
 
-========================================
 GetRoomNumber(char[,] map)
 ========================================
 
@@ -19,7 +18,6 @@ Visszatérési érték:
 int → a termek száma
 
 
-========================================
 GetSuitableEntrance(char[,] map)
 ========================================
 
@@ -30,7 +28,7 @@ Visszatérési érték:
 int → kijáratok száma
 
 
-========================================
+
 IsInvalidElement(char[,] map)
 ========================================
 
@@ -43,7 +41,6 @@ true → van hibás karakter
 false → nincs hibás karakter
 
 
-========================================
 GetUnavailableElements(char[,] map)
 ========================================
 
@@ -54,7 +51,6 @@ Visszatérési érték:
 List<string> → koordináták listája
 
 
-========================================
 GenerateLabyrinth(List<string> positionsList)
 ========================================
 
@@ -68,7 +64,6 @@ Visszatérési érték:
 char[,] → elkészült térkép
 
 
-========================================
 IsPath(char c)
 ========================================
 
