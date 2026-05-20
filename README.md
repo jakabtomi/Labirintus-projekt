@@ -6,7 +6,7 @@ C csapattag feladata
 
 
 Ez a program egy karakterekből felépített labirintust vizsgál.
-A térkép egy `char[,]` típusú kétdimenziós tömbben van tárolva.
+A térkép egy char[,] típusú kétdimenziós tömbben van tárolva.
 
 A program képes:
 
@@ -34,7 +34,7 @@ A program képes:
 
 ### GetRoomNumber(char[,] map)
 
-Megszámolja, hogy hány terem (`█`) található a térképen.
+Megszámolja, hogy hány terem (█) található a térképen.
 
 Visszatérési érték:
 
@@ -42,34 +42,34 @@ Visszatérési érték:
 
 ---
 
-### `GetSuitableEntrance(char[,] map)`
+### GetSuitableEntrance(char[,] map)
 
 Megszámolja, hogy hány kijárat található a labirintus szélén.
 
 Visszatérési érték:
 
-* kijáratok száma (`int`)
+* kijáratok száma (int)
 
 ---
 
-### `IsInvalidElement(char[,] map)`
+### IsInvalidElement(char[,] map)
 
 Ellenőrzi, hogy van-e szabálytalan karakter a térképen.
 
 Visszatérési érték:
 
-* `true` → van hibás karakter
-* `false` → minden karakter érvényes
+* true → van hibás karakter
+* false → minden karakter érvényes
 
 ---
 
-### `GetUnavailableElements(char[,] map)`
+### GetUnavailableElements(char[,] map)
 
 Megkeresi azokat a járatelemeket, amelyekhez nem kapcsolódik másik járat.
 
 Visszatérési érték:
 
-* elérhetetlen elemek listája (`List<string>`)
+* elérhetetlen elemek listája (List<string>)
 
 ---
 
@@ -85,26 +85,26 @@ Példa:
 
 Visszatérési érték:
 
-* elkészült labirintus (`char[,]`)
+* elkészült labirintus (char[,])
 
 ---
 
-### `IsPath(char c)`
+### IsPath(char c)
 
 Megvizsgálja, hogy egy karakter járatelem-e.
 
 Visszatérési érték:
 
-* `true` → járat
-* `false` → nem járat
+* true → járat
+* false → nem járat
 
 ---
 
 ## Program működése
 
-A program egy előre definiált `testMap` térképpel indul.
+A program egy előre definiált testMap térképpel indul.
 
-A `Main()` függvény meghívja a különböző metódusokat, majd kiírja az eredményeket:
+A Main() függvény meghívja a különböző metódusokat, majd kiírja az eredményeket:
 
 1. termek száma
 2. kijáratok száma
