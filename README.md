@@ -1,5 +1,6 @@
-# README – Labirintus metódusok
+# README – Labirintus metódusok 
 
+C csapattag feladata
 
 ## Program leírása
 
