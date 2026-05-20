@@ -73,15 +73,15 @@ Visszatérési érték:
 
 ---
 
-### `GenerateLabyrinth(List<string> positionsList)`
+### GenerateLabyrinth(List<string> positionsList)
 
 Új labirintust generál egy pozíciólista alapján.
 
 A lista elemei ilyen formátumúak:
-`"sor:oszlop"`
+"sor:oszlop"
 
 Példa:
-`"2:5"`
+"2:5"
 
 Visszatérési érték:
 
