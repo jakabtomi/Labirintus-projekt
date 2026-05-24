@@ -21,7 +21,6 @@ A program képes:
 ## Használt karakterek
 
 
-
 | Karakter                | Jelentés    |
 | ----------------------- | ----------- |
 |  .                      | üres mező   |
@@ -36,7 +35,7 @@ A program képes:
 
 Megszámolja, hogy hány terem (█) található a térképen.
 
-Visszatérési érték:
+visszatérési érték:
 
 * teremszám (int)
 
@@ -46,7 +45,7 @@ Visszatérési érték:
 
 Megszámolja, hogy hány kijárat található a labirintus szélén.
 
-Visszatérési érték:
+visszatérési érték:
 
 * kijáratok száma (int)
 
@@ -56,7 +55,7 @@ Visszatérési érték:
 
 Ellenőrzi, hogy van-e szabálytalan karakter a térképen.
 
-Visszatérési érték:
+visszatérési érték:
 
 * true → van hibás karakter
 * false → minden karakter érvényes
@@ -67,7 +66,7 @@ Visszatérési érték:
 
 Megkeresi azokat a járatelemeket, amelyekhez nem kapcsolódik másik járat.
 
-Visszatérési érték:
+visszatérési érték:
 
 * elérhetetlen elemek listája (List<string>)
 
@@ -83,7 +82,7 @@ A lista elemei ilyen formátumúak:
 Példa:
 "2:5"
 
-Visszatérési érték:
+visszatérési érték:
 
 * elkészült labirintus (char[,])
 
@@ -93,7 +92,7 @@ Visszatérési érték:
 
 Megvizsgálja, hogy egy karakter járatelem-e.
 
-Visszatérési érték:
+visszatérési érték:
 
 * true → járat
 * false → nem járat
