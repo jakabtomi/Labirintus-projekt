@@ -1,0 +1,19 @@
+Labirintus játék
+
+Megnyitás:
+- Nyisd meg a LabirintusJatek.sln fájlt Visual Studióban.
+- Indítsd el a projektet.
+- A minta pálya neve: minta.txt
+
+Irányítás:
+- W: fel
+- A: balra
+- S: le
+- D: jobbra
+- M: mentés
+- B: mentés betöltése
+- ESC: kilépés
+
+A játék célja:
+Meg kell találni az összes kincses termet, utána ki kell jutni valamelyik kijáraton.
+A visszaszámlálás miatt az idő lejártakor a játékos a labirintusban reked.

@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\toths\\Desktop\\LabirintusJatek\\LabirintusJatek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F08F4E7-558E-4A76-8C9C-1F7A7863CBB8}|LabirintusJatek\\LabirintusJatek.csproj|c:\\users\\toths\\desktop\\labirintusjatek\\labirintusjatek\\labirintusjatek\\szoveg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F08F4E7-558E-4A76-8C9C-1F7A7863CBB8}|LabirintusJatek\\LabirintusJatek.csproj|solutionrelative:labirintusjatek\\szoveg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F08F4E7-558E-4A76-8C9C-1F7A7863CBB8}|LabirintusJatek\\LabirintusJatek.csproj|c:\\users\\toths\\desktop\\labirintusjatek\\labirintusjatek\\labirintusjatek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F08F4E7-558E-4A76-8C9C-1F7A7863CBB8}|LabirintusJatek\\LabirintusJatek.csproj|solutionrelative:labirintusjatek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F08F4E7-558E-4A76-8C9C-1F7A7863CBB8}|LabirintusJatek\\LabirintusJatek.csproj|c:\\users\\toths\\desktop\\labirintusjatek\\labirintusjatek\\labirintusjatek\\palya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F08F4E7-558E-4A76-8C9C-1F7A7863CBB8}|LabirintusJatek\\LabirintusJatek.csproj|solutionrelative:labirintusjatek\\palya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F08F4E7-558E-4A76-8C9C-1F7A7863CBB8}|LabirintusJatek\\LabirintusJatek.csproj|c:\\users\\toths\\desktop\\labirintusjatek\\labirintusjatek\\labirintusjatek\\jatek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F08F4E7-558E-4A76-8C9C-1F7A7863CBB8}|LabirintusJatek\\LabirintusJatek.csproj|solutionrelative:labirintusjatek\\jatek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F08F4E7-558E-4A76-8C9C-1F7A7863CBB8}|LabirintusJatek\\LabirintusJatek.csproj|c:\\users\\toths\\desktop\\labirintusjatek\\labirintusjatek\\labirintusjatek\\pozicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F08F4E7-558E-4A76-8C9C-1F7A7863CBB8}|LabirintusJatek\\LabirintusJatek.csproj|solutionrelative:labirintusjatek\\pozicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "pozicio.cs",
+              "DocumentMoniker": "C:\\Users\\toths\\Desktop\\LabirintusJatek\\LabirintusJatek\\LabirintusJatek\\pozicio.cs",
+              "RelativeDocumentMoniker": "LabirintusJatek\\pozicio.cs",
+              "ToolTip": "C:\\Users\\toths\\Desktop\\LabirintusJatek\\LabirintusJatek\\LabirintusJatek\\pozicio.cs",
+              "RelativeToolTip": "LabirintusJatek\\pozicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:06:22.387Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "jatek.cs",
+              "DocumentMoniker": "C:\\Users\\toths\\Desktop\\LabirintusJatek\\LabirintusJatek\\LabirintusJatek\\jatek.cs",
+              "RelativeDocumentMoniker": "LabirintusJatek\\jatek.cs",
+              "ToolTip": "C:\\Users\\toths\\Desktop\\LabirintusJatek\\LabirintusJatek\\LabirintusJatek\\jatek.cs",
+              "RelativeToolTip": "LabirintusJatek\\jatek.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:06:37.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "szoveg.cs",
+              "DocumentMoniker": "C:\\Users\\toths\\Desktop\\LabirintusJatek\\LabirintusJatek\\LabirintusJatek\\szoveg.cs",
+              "RelativeDocumentMoniker": "LabirintusJatek\\szoveg.cs",
+              "ToolTip": "C:\\Users\\toths\\Desktop\\LabirintusJatek\\LabirintusJatek\\LabirintusJatek\\szoveg.cs",
+              "RelativeToolTip": "LabirintusJatek\\szoveg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:06:31.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "program.cs",
+              "DocumentMoniker": "C:\\Users\\toths\\Desktop\\LabirintusJatek\\LabirintusJatek\\LabirintusJatek\\program.cs",
+              "RelativeDocumentMoniker": "LabirintusJatek\\program.cs",
+              "ToolTip": "C:\\Users\\toths\\Desktop\\LabirintusJatek\\LabirintusJatek\\LabirintusJatek\\program.cs",
+              "RelativeToolTip": "LabirintusJatek\\program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:06:23.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "palya.cs",
+              "DocumentMoniker": "C:\\Users\\toths\\Desktop\\LabirintusJatek\\LabirintusJatek\\LabirintusJatek\\palya.cs",
+              "RelativeDocumentMoniker": "LabirintusJatek\\palya.cs",
+              "ToolTip": "C:\\Users\\toths\\Desktop\\LabirintusJatek\\LabirintusJatek\\LabirintusJatek\\palya.cs",
+              "RelativeToolTip": "LabirintusJatek\\palya.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAUwAgBAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:06:19.698Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
