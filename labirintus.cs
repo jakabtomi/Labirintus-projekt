@@ -5,6 +5,7 @@ namespace LabirintusMethods
 {
     class labirintus
     {
+        // az elfogadott jarat karakterek
         static readonly char[] pathChars =
         {
             '╬','═','╦','╩','║','╣','╠','╗','╝','╚','╔'
@@ -44,12 +45,14 @@ namespace LabirintusMethods
             int rows = map.GetLength(0);
             int cols = map.GetLength(1);
 
+            // Felső és alsó sor
             for (int j = 0; j < cols; j++)
             {
                 if (IsPath(map[0, j])) count++;
                 if (IsPath(map[rows - 1, j])) count++;
             }
 
+            // Bal és jobb oldal
             for (int i = 1; i < rows - 1; i++)
             {
                 if (IsPath(map[i, 0])) count++;
@@ -113,15 +116,19 @@ namespace LabirintusMethods
                     {
                         bool connected = false;
 
+                        // eszak
                         if (i > 0 && IsPath(map[i - 1, j]))
                             connected = true; 
 
+                        // del
                         if (i < rows - 1 && IsPath(map[i + 1, j]))
                             connected = true;
 
+                        // nyugat
                         if (j > 0 && IsPath(map[i, j - 1]))
                             connected = true;
 
+                        // kelet
                         if (j < cols - 1 && IsPath(map[i, j + 1]))
                             connected = true;
 
@@ -145,6 +152,7 @@ namespace LabirintusMethods
             int maxRow = 0;
             int maxCol = 0;
 
+            // meret meghatarozasa
             foreach (string pos in positionsList)
             {
                 string[] parts = pos.Split(':');
@@ -156,8 +164,10 @@ namespace LabirintusMethods
                 if (col > maxCol) maxCol = col;
             }
 
+            //matrix letrehozasa
             char[,] map = new char[maxRow + 1, maxCol + 1];
 
+            // feltoltes ponttal
             for (int i = 0; i < map.GetLength(0); i++)
             {
                 for (int j = 0; j < map.GetLength(1); j++)
@@ -166,6 +176,7 @@ namespace LabirintusMethods
                 }
             }
 
+            // jaratok elhelyezése
             foreach (string pos in positionsList)
             {
                 string[] parts = pos.Split(':');
@@ -204,23 +215,24 @@ namespace LabirintusMethods
         { '.', '.', '╚', '═', '═', '.', '.', '.', '.', '.', '.', '.', '.', '.', '╚', '═', '═', '═', '╝', '.', '.', '.', '.', '.' }
     };
 
-            Console.WriteLine("Termek száma:");
+
+            Console.WriteLine("Termek száma: ");
             Console.WriteLine(GetRoomNumber(testMap));
 
             Console.WriteLine();
 
             Console.WriteLine("Kijáratok száma: ");
             Console.WriteLine(GetSuitableEntrance(testMap));
-
             Console.WriteLine();
-            Console.WriteLine("Szabálytalan karakter?  ");
+
+            Console.WriteLine("Van Szabálytalan karakter? ");
             Console.WriteLine(IsInvalidElement(testMap));
 
             Console.WriteLine();
 
             List<string> bad = GetUnavailableElements(testMap);
 
-            Console.WriteLine("Elérhetetlen elemek:");
+            Console.WriteLine("Elérhetetlen elemek:  ");
 
             foreach (string s in bad)
             {
