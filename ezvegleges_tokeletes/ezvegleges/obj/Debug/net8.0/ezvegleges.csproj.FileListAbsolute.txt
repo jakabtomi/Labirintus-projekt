@@ -1,0 +1,15 @@
+C:\Users\toths\Desktop\ezvegleges_tokeletes\ezvegleges\bin\Debug\net8.0\ezvegleges.exe
+C:\Users\toths\Desktop\ezvegleges_tokeletes\ezvegleges\bin\Debug\net8.0\minta.txt
+C:\Users\toths\Desktop\ezvegleges_tokeletes\ezvegleges\bin\Debug\net8.0\ezvegleges.deps.json
+C:\Users\toths\Desktop\ezvegleges_tokeletes\ezvegleges\bin\Debug\net8.0\ezvegleges.runtimeconfig.json
+C:\Users\toths\Desktop\ezvegleges_tokeletes\ezvegleges\bin\Debug\net8.0\ezvegleges.dll
+C:\Users\toths\Desktop\ezvegleges_tokeletes\ezvegleges\bin\Debug\net8.0\ezvegleges.pdb
+C:\Users\toths\Desktop\ezvegleges_tokeletes\ezvegleges\obj\Debug\net8.0\ezvegleges.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toths\Desktop\ezvegleges_tokeletes\ezvegleges\obj\Debug\net8.0\ezvegleges.AssemblyInfoInputs.cache
+C:\Users\toths\Desktop\ezvegleges_tokeletes\ezvegleges\obj\Debug\net8.0\ezvegleges.AssemblyInfo.cs
+C:\Users\toths\Desktop\ezvegleges_tokeletes\ezvegleges\obj\Debug\net8.0\ezvegleges.csproj.CoreCompileInputs.cache
+C:\Users\toths\Desktop\ezvegleges_tokeletes\ezvegleges\obj\Debug\net8.0\ezvegleges.dll
+C:\Users\toths\Desktop\ezvegleges_tokeletes\ezvegleges\obj\Debug\net8.0\refint\ezvegleges.dll
+C:\Users\toths\Desktop\ezvegleges_tokeletes\ezvegleges\obj\Debug\net8.0\ezvegleges.pdb
+C:\Users\toths\Desktop\ezvegleges_tokeletes\ezvegleges\obj\Debug\net8.0\ezvegleges.genruntimeconfig.cache
+C:\Users\toths\Desktop\ezvegleges_tokeletes\ezvegleges\obj\Debug\net8.0\ref\ezvegleges.dll
