@@ -17,6 +17,7 @@ function setLanguage(lang)
         document.getElementById('member2').innerText = 'Creating the map editor : Szabolcs Oláh';
         document.getElementById('member3').innerText = 'Implementing the required methods and building the website: Tamas Jakab';
 
+        document.getElementById('footerText').innerText = 'Created by: Tamas Jakab';
         document.getElementById('controlsTitle').innerText = 'Controls';
 
         document.getElementById('northText').innerText = 'Move north';
@@ -25,6 +26,14 @@ function setLanguage(lang)
         document.getElementById('eastText').innerText = 'Move east';
 
         document.getElementById('mapTitle').innerText = 'Map Characters';
+        document.getElementById('charText').innerText = 'Character';
+        document.getElementById('meaningText').innerText = 'Meaning';
+
+        document.getElementById('method1').innerText = 'Count rooms';
+        document.getElementById('method2').innerText = 'Find exits';
+        document.getElementById('method3').innerText = 'Check invalid characters';
+        document.getElementById('method41').innerText = 'Find unreachable paths';
+        document.getElementById('method5').innerText = 'Generate labyrinth';
 
         document.getElementById('wallText').innerText = 'Wall / filler';
         document.getElementById('roomText').innerText = 'Treasure room';
@@ -41,13 +50,6 @@ function setLanguage(lang)
 
         document.getElementById('methodsTitle').innerText = 'Implemented Methods';
 
-        document.getElementById('method1').innerText = 'Count rooms';
-        document.getElementById('method2').innerText = 'Find exits';
-        document.getElementById('method3').innerText = 'Check invalid characters';
-        document.getElementById('method4').innerText = 'Find unreachable paths';
-        document.getElementById('method5').innerText = 'Generate labyrinth';
-
-        document.getElementById('footerText').innerText = 'Created by: Tamas Jakab';
     }
     else
     {
